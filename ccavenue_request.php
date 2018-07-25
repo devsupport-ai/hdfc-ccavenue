@@ -27,7 +27,7 @@ $postData["tid"] = "txn-" . UUID::v4();
 $postData["order_id"] = "ord-" . UUID::v4();
 
 
-foreach ($_POST as $key => $value) {
+foreach ($postData as $key => $value) {
     $merchant_data .= $key . '=' . urlencode($value) . '&';
 }
 
