@@ -305,7 +305,7 @@
 
         });
 
-        $(".emi_plan_radio").live("click", function () {
+        $("#emi_tbl").on("click", ".emi_plan_radio", function () {
             var processingFee = "";
             $("#emi_tenure_id").val($(this).val());
             processingFee =
