@@ -23,8 +23,8 @@ $postData["language"] = "EN";
 $postData["amount"] = "500.00";
 $postData["language"] = "EN";
 $postData["merchant_id"] = $merchant_id;
-$postData["tid"] = "txn-" . UUID::v4();
-$postData["order_id"] = "ord-" . UUID::v4();
+$postData["tid"] = "txn-" . generateRandomString(10);
+$postData["order_id"] = "ord-" . generateRandomString(10);
 
 
 foreach ($postData as $key => $value) {
