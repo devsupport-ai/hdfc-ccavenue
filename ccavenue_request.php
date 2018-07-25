@@ -21,9 +21,7 @@ $postData["cancel_url"] = $redirect_url;
 $postData["currency"] = "INR";
 $postData["language"] = "EN";
 $postData["amount"] = "500.00";
-$postData["language"] = "EN";
 $postData["merchant_id"] = $merchant_id;
-$postData["tid"] = "txn-" . generateRandomString(10);
 $postData["order_id"] = "ord-" . generateRandomString(10);
 
 
