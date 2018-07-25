@@ -8,3 +8,6 @@
 $merchant_id = '{{=it.merchant_id}}';
 $working_key = '{{=it.working_key}}';//Shared by CCAVENUES
 $access_code = '{{=it.access_code}}';//Shared by CCAVENUES
+$redirect_url = "{{=it.response_handler_url}}";
+$cancel_url = "http://testhdfcbank.com/ccavResponseHandler.php";
+
