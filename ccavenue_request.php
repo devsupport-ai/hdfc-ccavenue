@@ -24,6 +24,13 @@ $postData["amount"] = "500.00";
 $postData["merchant_id"] = $merchant_id;
 $postData["order_id"] = "ord-" . generateRandomString(10);
 
+// user defined values, use as required
+$postData["merchant_param1"] = "";
+$postData["merchant_param2"] = "";
+$postData["merchant_param3"] = "500.00";
+$postData["merchant_param4"] = "";
+$postData["merchant_param5"] = "";
+
 
 foreach ($postData as $key => $value) {
     $merchant_data .= $key . '=' . urlencode($value) . '&';
